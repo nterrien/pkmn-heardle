@@ -21988,7 +21988,7 @@ var app = (function () {
             "\n\n" +
             t +
             "\n\n" +
-            "https://pkmn-heardle.glitch.me/";
+            "https://pkmn-heardle-fix.glitch.me/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(

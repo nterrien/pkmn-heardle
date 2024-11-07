@@ -1,4 +1,4 @@
-# pokmn-heardle
+# pkmn-heardle-fix
 
 A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://heardle-kpop.glitch.me/) but for Pokémon musics. Based on [Joywave Heardle](https://joywave-heardle.glitch.me/) and on [Pokémon Heardle](https://pkmn-heardle.glitch.me/)
 
