@@ -1,6 +1,4 @@
 var app = (function () {
-  var twitter = "";
-  var zipUrl = ""; // Set to '' if you don't want to allow download of the zip
   var startDate = "2024-10-04"; // Original Start Date, used to know the current heardle
   var seed = 564815687; // seed used for rng to select today's music
   const languages = ["fr", "en"];
@@ -16963,9 +16961,9 @@ var app = (function () {
     en: "Pokémon",
   };
   const flags = {
-    fr: "https://cdn.glitch.global/f6cb8a02-f83e-455b-b937-1dd6141cd4c8/1f1eb-1f1f7.png?v=1706983312624",
-    en: "https://cdn.glitch.global/f6cb8a02-f83e-455b-b937-1dd6141cd4c8/1f1fa-1f1f8.png?v=1706983312915",
-  }; // Name of the file used fo the flag
+    fr: "./flags/fr.png",
+    en: "./flags/en.png",
+  }; // Name of the file used for the flag
   const aboutT = { fr: "A propos", en: "about" };
   const supportT = { fr: "support", en: "support" };
   const statsT = { fr: "stats", en: "stats" };
@@ -17009,8 +17007,8 @@ var app = (function () {
       " song from the intro in as few tries as possible",
   };
   const supportPopupT = {
-    fr: 'Vous avez des questions ou trouvez des bugs ? Contactez Beignet0 sur Reddit, beignetSan sur Twitch ou beignet1139 sur Discord ! <br><br>Vous pouvez également jouer au <a href="https://pkmn-heardle.glitch.me/" title="Pokémon Heardle">Pokémon Heardle original</a> ou à la <a href="https://pkmn-infinite-heardle.glitch.me/" title="Pokémon Infinite Heardle">Version Infinie</a> pour ne pas attendre. Remerciez <a href="http://www.twitter.com/SgtAngel777" target="_blank">@SgtAngel777</a> et <a href="http://www.twitter.com/NickWrightData" target="_blank">@NickWrightData</a> les créateurs du Pokémon Heardle original sur Twitter !<br><br>Il existe également une version pour <a href="https://pkmn-md-heardle.glitch.me/">Pokémon Donjon Mystère</a> grâce à Ipfil.',
-    en: 'Have questions/run into bugs? DM Beignet0 on Reddit, beignetSan on Twitch or beignet1139 on Discord!<br><br>You can also play <a href="https://pkmn-heardle.glitch.me/" title="Pokémon Heardle">the original Pokémon Heardle</a> daily or play to <a href="https://pkmn-infinite-heardle.glitch.me/" title="Pokémon Infinite Heardle">the infinite Heardle</a>. Thank the Pokémon Heardle creators on Twitter! <a href="http://www.twitter.com/SgtAngel777" target="_blank">@SgtAngel777</a> and <a href="http://www.twitter.com/NickWrightData" target="_blank">@NickWrightData</a><br><br>There\'s also a version for <a href="https://pkmn-md-heardle.glitch.me/">Pokémon Mystery Dungeon</a>, thanks to Ipfil.',
+    fr: 'Vous avez des questions ou trouvez des bugs ? Contactez Beignet0 sur Reddit, beignetSan sur Twitch, @beignet0.bsky.social sur Bluesky, beignet1139 sur Discord ou créez un ticket sur <a href="https://github.com/nterrien/pkmn-heardle/issues" target="_blank">Github</a>! <br><br>Vous ne voulez pas attendre jusqu\'à demain ? Vous pouvez aussi jouer à l\'infini à <a href="https://nterrien.github.io/pkmn-infinite-heardle/" title="Pokémon Infinite Heardle">Pokémon Infinite Heardle</a>. Remerciez les créateurs orignal du Pokémon Heardle, <a href="https://bsky.app/profile/sgtangel777.bsky.social" target="_blank">@SgtAngel777</a> and <a href="https://bsky.app/profile/nickwrightdata.ntw.app" target="_blank">@NickWrightData</a> !<br><br>Il existe également une version pour <a href="https://prateau.github.io/pmd-heardle/">Pokémon Donjon Mystère</a>, grâce à Ipfil.',
+    en: 'Have questions/run into bugs? DM Beignet0 on Reddit, beignetSan on Twitch, @beignet0.bsky.social on Bluesky, beignet1139 on Discord or create an issue in <a href="https://github.com/nterrien/pkmn-heardle/issues" target="_blank">Github</a>!<br><br>Don\'t want to wait until tomorrow? You can also play infinitely to <a href="https://nterrien.github.io/pkmn-infinite-heardle/" title="Pokémon Infinite Heardle">Pokémon Infinite Heardle</a>. Thank the original Pokémon Heardle creators <a href="https://bsky.app/profile/sgtangel777.bsky.social" target="_blank">@SgtAngel777</a> and <a href="https://bsky.app/profile/nickwrightdata.ntw.app" target="_blank">@NickWrightData</a>!<br><br>There\'s also a version for <a href="https://prateau.github.io/pmd-heardle/">Pokémon Mystery Dungeon</a>, thanks to Ipfil.',  
   };
   const howToPlayPopup1T = {
     fr:
@@ -17036,19 +17034,9 @@ var app = (function () {
   };
   const aboutPopupT = {
     fr:
-      '<p class="mb-3">Un clone de <a href="https://pkmn-heardle/" title="Pokémon Heardle">Pokémon Heardle</a> qui ajoute des fonctionnalité, ajoute des musiques et corrige des problèmes, lui même basé sur <a href="https://www.heardle.app/" title="Heardle">Heardle</a> et sur <a href="https://heardle-kpop.glitch.me/" title="K-Pop Heardle">K-Pop Heardle</a>. Basé sur le code de <a href="https://joywave-heardle.glitch.me/" title="Joywave Heardle">Joywave Heardle</a> et sur les musiques de Pokémon.</p> \n\n<p class="mb-3">Chaque musique est choisie au hasard dans la bande originale du jeu Pokémon.</p><p class="mb-3">Les musiques sont répertoriées avec le nom des jeux dans lesquels elles figurent. Vous pouvez effectuer une recherche par noms de versions appariées, comme "Rouge/Bleu" ou "Rubis/Saphir". Les musiques des remakes sont incluses, comme Rouge Feu et Vert Feuille ou Diamant Étincelant et Perle Scintillante.</p><p class="mb-3">La liste des musiques provient de vgmdb (qui utilise les albums officiels) quand c\'est possible, sinon de datamining (Concerne Ultra Soleil/Ultra Lune et Diamant Étincelant/Perle Scintillante). Les noms français des musiques proviennent des listes officiels sur iTunes pour les jeux GBA et DS et pour Pokémon X/Y. Pour les autres jeux, les traductions sont déduites à partir des jeux déjà traduits ou sont traduites à la main à partir des noms anglais. N\'hésitez pas à me proposer de meilleures traductions pour Pokémon Soleil/Lune, Épée/Bouclier, Légende: Arceus, ou Écarlate/Violet !</p> \n\n\n\n <p class="mb-3">Vous voulez créer votre propre Heardle ? Consultez le fichier <a href="https://glitch.com/edit/#!/pkmn-heardle?path=README.md">README</a>.</p>' +
-      (zipUrl
-        ? '<p>Vous pouvez télécharger les fichiers pour exécuter le site en local <a href="' +
-          zipUrl +
-          '">ici</a>.</p>'
-        : ""),
+      '<p class="mb-3">Un clone de <a href="https://pkmn-heardle.glitch.me/" title="Pokémon Heardle">Pokémon Heardle</a> (le site ne fonctionne plus) qui ajoute des fonctionnalité, ajoute des musiques et corrige des bugs, lui même basé sur <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, sur <a href="https://heardle-kpop.glitch.me/" title="K-Pop Heardle">K-Pop Heardle</a> et <a href="https://joywave-heardle.glitch.me/" title="Joywave Heardle">Joywave Heardle</a> avec les musiques de Pokémon.</p> \n\n<p class="mb-3">Chaque musique est choisie au hasard dans la bande originale du jeu Pokémon.</p><p class="mb-3">Les musiques sont répertoriées avec le nom des jeux dans lesquels elles figurent. Vous pouvez effectuer une recherche par noms de versions appariées, comme "Rouge/Bleu" ou "Rubis/Saphir". Les musiques des remakes sont incluses, comme Rouge Feu et Vert Feuille ou Diamant Étincelant et Perle Scintillante.</p><p class="mb-3">La liste des musiques provient de vgmdb (qui utilise les albums officiels) quand c\'est possible, sinon de datamining (Concerne Ultra Soleil/Ultra Lune et Diamant Étincelant/Perle Scintillante). Les noms français des musiques proviennent des listes officiels sur iTunes pour les jeux GBA et DS et pour Pokémon X/Y. Pour les autres jeux, les traductions sont déduites à partir des jeux déjà traduits ou sont traduites à la main à partir des noms anglais. N\'hésitez pas à me proposer de meilleures traductions pour Pokémon Soleil/Lune, Épée/Bouclier, Légende: Arceus, ou Écarlate/Violet !</p> \n\n\n\n <p class="mb-3">Vous voulez créer votre propre Heardle ? Consultez le fichier <a href="https://github.com/nterrien/pkmn-heardle">README</a>.</p>',
     en:
-      '<p class="mb-3">A <a href="https://pkmn-heardle/" title="Pokémon Heardle">Pokémon Heardle</a> clone that adds features, adds music and fixes bugs, itself based on <a href="https://www.heardle.app/" title="Heardle">Heardle</a> and <a href="https://heardle-kpop.glitch.me/" title="K-Pop Heardle">K-Pop Heardle</a>. Based on <a href="https://joywave-heardle.glitch.me/" title="Joywave Heardle">Joywave Heardle</a> code and Pokémon music.</p> \n\n<p class="mb-3">Each music is randomly chosen from mainline Pokémon\'s game soundtrack.</p><p class="mb-3">Songs are listed along with the name of the games they are featured in. You can search by paired version names such as "Red/Blue" or "Ruby/Sapphire". Songs from remakes are included, such as FireRed and LeafGreen, and Brilliant Diamond and Shining Pearl. </p><p class="mb-3">The list of music comes from vgmdb (which uses official albums), when possible, otherwise from datamining (Only for Ultra Sun/Ultra Moon and Brilliant Diamond/Shining Pearl)</p> \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/pkmn-heardle?path=README.md">README</a>. </p>' +
-      (zipUrl
-        ? '<p>You can download files to run the website locally <a href="' +
-          zipUrl +
-          '">here</a>.</p>'
-        : ""),
+      '<p class="mb-3">A clone of <a href="https://pkmn-heardle.glitch.me/" title="Pokémon Heardle">Pokémon Heardle</a> (the site doesn\'t work anymore) that adds features, adds music and fixes bugs, itself based on <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, <a href="https://heardle-kpop.glitch.me/" title="K-Pop Heardle">K-Pop Heardle</a> and <a href="https://joywave-heardle.glitch.me/" title="Joywave Heardle">Joywave Heardle</a> code with Pokémon music.</p> \n\n<p class="mb-3">Each music is randomly chosen from mainline Pokémon\'s game soundtrack.</p><p class="mb-3">Songs are listed along with the name of the games they are featured in. You can search by paired version names such as "Red/Blue" or "Ruby/Sapphire". Songs from remakes are included, such as FireRed and LeafGreen, and Brilliant Diamond and Shining Pearl. </p><p class="mb-3">The list of music comes from vgmdb (which uses official albums), when possible, otherwise from datamining (Only for Ultra Sun/Ultra Moon and Brilliant Diamond/Shining Pearl)</p> \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://github.com/nterrien/pkmn-heardle">README</a>. </p>'  
   };
   const playT = { fr: "Jouer", en: "Play" };
   const playDailyT = {
@@ -21031,7 +21019,7 @@ var app = (function () {
         (n = w("div")),
           (n.innerHTML =
             aboutPopupT[language] +
-            ' \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
+            ' \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://github.com/">Github</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -21988,7 +21976,7 @@ var app = (function () {
             "\n\n" +
             t +
             "\n\n" +
-            "https://pkmn-heardle-fix.glitch.me/";
+            "https://nterrien.github.io/pkmn-heardle/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
