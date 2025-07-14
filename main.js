@@ -17646,12 +17646,7 @@ var app = (function () {
               }
             );
       })(
-        [
-          {
-            type: "script",
-            url: `//www.googletagmanager.com/gtag/js?id=${r[0]}`,
-          },
-        ],
+        [],
         de,
         a
       );
