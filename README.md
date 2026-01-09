@@ -15,10 +15,10 @@ HOW TO MAKE YOUR OWN HEARDLE (UDPATED on **25/07/12**)
 (If you want an heardle that does not includes translations you can check the readme of [Etrian Heardle](https://github.com/nterrien/etrian-heardle))
 
 1. **Fork this project** to create your own copy of the code
-2. **Rename the project** with the URL that you'd like to Heardle to live at, by going to **Settings >  Repository name**
+2. **Rename the project** with the URL that you'd like to Heardle to live at, by going to **Settings > Repository name**
 3. Use Github as host by going to **Settings > Pages**. In Source, choose "Deploy from a branch" and in branch choose "master".
 4. Open the **index.html** file & replace **"Pokémon"** with the artist/genre/game of your heardle. Make sure to **do this first**, if you update the main.js first, sometimes your link will still show Pokémon even after you update everything.
-5. In the **index.html** file, you can update the image that gets shared with your link by updating lines **22-24**. 
+5. In the **index.html** file, you can update the image that gets shared with your link by updating lines **35-37**.
 6. You can update the icon in your browser's tab by updating the favicon.png image.
 
 (Items 7-13 are all edits to the **main.js file**)
@@ -29,8 +29,7 @@ HOW TO MAKE YOUR OWN HEARDLE (UDPATED on **25/07/12**)
 10. On line **15** of **main.js**, "var **musicNameList**" is initialized. Replace it with a list of music titles you'd like to appear as suggestions in your Heardle. The list should follow the format: **`{ id : music id, codeLanguage : "Music title" }`**. Each music must have a different id, and there must be one entry per language. For each language, music titles should follow the format **"Music - Artist/Genre/Game"**. Make sure each music is in quotes and has a comma after it.
 11. On line **9388** of **main.js**, "var **musicListWithLinks**" is initialized. Here you'll have to replace the links with links to your musics. Only Soundcloud links at the moment. Each link will have to follow the following format: **`{ url: "<link>", answer: id of the music },`**. Make sure to have **at least 10 musics** in your lists otherwise you'll run into issues with the search bar!
 12. If you want your heardle link to show up whenever someone shares their results, around **line 21979** remove the "**//**" and update the link with your own heardle link. If you're having trouble finding the link since the line numbers probably changed after you edit the code, you can search for **"https://nterrien.github.io/pkmn-heardle/"** !
-13. If you want to modify the interface text, edit the constants between line **16959** and line **17084**. (artist, flags, aboutT, supportT, statsT, howToPlayT, musicListT, langListT, volumeT, submitT, placeholderT, nextT, goodAnswerT, secondT, badAnswerT, supportPopupT, howToPlayPopup1T, howToPlayPopup2T, howToPlayPopup3T, aboutPopupT). Don't forget to add the new language flags to the "flags" folder if necessary.
-In particular, if you want to edit the text in the **info button (About)** on the top left, around **line 17034** you can update the text that shows up there. Search for **"aboutPopupT"** to find the line easier. Similarly, if you want to edit the text in the **heart button (Support)** next to the info button, around **line 17009**, you can update the text that shows up there. Search for **"supportPopupT"** to find the line easier.
+13. If you want to modify the interface text, edit the constants between line **16959** and line **17084**. (artist, flags, aboutT, supportT, statsT, howToPlayT, musicListT, langListT, volumeT, submitT, placeholderT, nextT, goodAnswerT, secondT, badAnswerT, supportPopupT, howToPlayPopup1T, howToPlayPopup2T, howToPlayPopup3T, aboutPopupT). Don't forget to add the new language flags to the "flags" folder if necessary. In particular, if you want to edit the text in the **info button (About)** on the top left, around **line 17034** you can update the text that shows up there. Search for **"aboutPopupT"** to find the line easier. Similarly, if you want to edit the text in the **heart button (Support)** next to the info button, around **line 17009**, you can update the text that shows up there. Search for **"supportPopupT"** to find the line easier.
 
 **KNOWN ISSUES**
 
@@ -61,9 +60,8 @@ COMMENT FAIRE VOTRE PROPRE HEARDLE (MISE À JOUR LE **25/07/12**)
 1. **Forkez ce projet** pour créer votre propre copie du code.
 2. **Renommez le projet** avec l'URL que vous souhaitez utiliser pour le Heardle, en allant dans **Settings > Repository name**
 3. Utilisez Github comme hôte en allant dans **Paramètres > Pages**. Dans Source, choisissez "Deploy from a branch" et dans branch choisissez "master".
-4. Ouvrez le fichier **index.html** et remplacez **"Pokémon"** par l'artiste/genre de votre Heardle.
-Assurez-vous de faire cela **en premier**, si vous mettez d'abord à jour le fichier main.js, il se peut que votre lien affiche toujours Joywave même après avoir tout mis à jour.
-5. Dans le fichier **index.html**, vous pouvez mettre à jour l'image qui est partagée avec votre lien en mettant à jour les lignes **22-24**.
+4. Ouvrez le fichier **index.html** et remplacez **"Pokémon"** par l'artiste/genre de votre Heardle. Assurez-vous de faire cela **en premier**, si vous mettez d'abord à jour le fichier main.js, il se peut que votre lien affiche toujours Joywave même après avoir tout mis à jour.
+5. Dans le fichier **index.html**, vous pouvez mettre à jour l'image qui est partagée avec votre lien en mettant à jour les lignes **35-37**.
 6. Vous pouvez mettre à jour l'icône de l'onglet de votre navigateur en mettant à jour l'image favicon.png.
 
 (Les points 7 à 13 sont tous des modifications du fichier **main.js**)
@@ -75,8 +73,7 @@ Assurez-vous de faire cela **en premier**, si vous mettez d'abord à jour le fic
 11. A la ligne **9388** de **main.js**, "var **musicListWithLinks**" est initialisée. Ici, vous devrez remplacer les liens par des liens vers vos musiques. Seulement des liens Soundcloud. Chaque ligne devra suivre le format suivant : **`{ url : "<link>", answer : id de la musique },`**. Assurez-vous d'avoir au moins **10 musiques** dans votre liste sinon vous rencontrerez des problèmes avec la barre de recherche !
 12. Si vous voulez que votre lien heardle apparaisse chaque fois que quelqu'un partage ses résultats, autour de **ligne 21979** enlevez le « **//** » et mettez à jour le lien avec votre propre lien heardle. Si vous avez des difficultés à trouver le lien car les numéros de ligne ont probablement changé après que vous ayez modifié le code, vous pouvez rechercher **"https://nterrien.github.io/pkmn-heardle/"** !
 
-13. Si vous voulez modifier le texte de l'interface, éditez les constantes entre la ligne **16959** et la ligne **17084**. (artist, flags, aboutT, supportT, statsT, howToPlayT, musicListT, langListT, volumeT, submitT, placeholderT, nextT, goodAnswerT, secondT, badAnswerT, supportPopupT, howToPlayPopup1T, howToPlayPopup2T, howToPlayPopup3T, aboutPopupT). N'oubliez pas d'ajouter les nouveaux drapeaux de langue au dossier "flags" si nécessaire.
-En particulier, si vous voulez éditer le texte dans le **bouton info (À propos)** en haut à gauche, autour de la ligne **17034**, vous pouvez mettre à jour le texte qui s'y affiche. Cherchez **"aboutPopupT"** pour trouver la ligne plus facilement. De même, si vous souhaitez modifier le texte du **bouton cœur (Support)** à côté du bouton info, autour de la ligne **17009**, vous pouvez mettre à jour le texte qui s'affiche à cet endroit. Cherchez **"supportPopupT"** pour trouver la ligne plus facilement.
+13. Si vous voulez modifier le texte de l'interface, éditez les constantes entre la ligne **16959** et la ligne **17084**. (artist, flags, aboutT, supportT, statsT, howToPlayT, musicListT, langListT, volumeT, submitT, placeholderT, nextT, goodAnswerT, secondT, badAnswerT, supportPopupT, howToPlayPopup1T, howToPlayPopup2T, howToPlayPopup3T, aboutPopupT). N'oubliez pas d'ajouter les nouveaux drapeaux de langue au dossier "flags" si nécessaire. En particulier, si vous voulez éditer le texte dans le **bouton info (À propos)** en haut à gauche, autour de la ligne **17034**, vous pouvez mettre à jour le texte qui s'y affiche. Cherchez **"aboutPopupT"** pour trouver la ligne plus facilement. De même, si vous souhaitez modifier le texte du **bouton cœur (Support)** à côté du bouton info, autour de la ligne **17009**, vous pouvez mettre à jour le texte qui s'affiche à cet endroit. Cherchez **"supportPopupT"** pour trouver la ligne plus facilement.
 
 **PROBLÈMES CONNUS**
 
