@@ -4,7 +4,7 @@
 
 A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://heardle-kpop.glitch.me/) but for Pokémon musics. Based on [Pokémon Heardle](https://pkmn-heardle.glitch.me/) by SgtAngel777 and NickWrightData and modified to add more musics and features. The original [Pokémon Heardle](https://pkmn-heardle.glitch.me/) is down now. If you are the original creators of Pokémon Heardle and want me to stop this website and rehost Pokémon Heardle by yourself you can contact me anywhere (see the About popup on the website).
 
-Each music is randomly chosen from Pokémon's soundtrack to appear only once. If every music is used once, the game automatically resets and every music appears once again in a different order. The code for daily seeded RNG come from [Pokémon Mystery Dungeon Heardle](https://prateau.github.io/pmd-heardle/).
+Each music is randomly chosen from Pokémon's soundtrack to appear only once. If every music is used once, the game automatically resets and every music appears once again in a different order. The code for daily seeded RNG come from [Pokémon Mystery Dungeon Heardle](https://prateau.github.io/pmd-heardle/). The code for the volume bar come from [Video Games Infinite Heardle](https://keraloon.github.io/infinitevideogame/).
 <br />
 <br />
 HOW TO RUN HEARDLE LOCALLY:
@@ -44,7 +44,7 @@ HOW TO MAKE YOUR OWN HEARDLE (UDPATED on **25/07/12**)
 
 Un clone de [Heardle](https://www.heardle.app/), et de [K-Pop Heardle](https://heardle-kpop.glitch.me/) mais pour les musiques de Pokémon. Basé sur [Pokémon Heardle](https://pkmn-heardle.glitch.me/) par SgtAngel777 et NickWrightData et modifié pour ajouter plus de musiques et de fonctionnalités. Le [Pokémon Heardle](https://pkmn-heardle.glitch.me/) original n'existe plus. Si vous êtes les créateurs originaux de Pokémon Heardle et que vous voulez que j'arrête ce site web et que héberger Pokémon Heardle vous-même, vous pouvez me contacter n'importe où (voir le popup "À propos" sur le site).
 
-Chaque musique est choisie au hasard dans la bande-son de Pokémon pour n'apparaître qu'une seule fois. Si chaque musique est utilisée une fois, le jeu se réinitialise automatiquement et chaque musique apparaît à nouveau dans un ordre différent. Le code pour la RNG seedée provient de [Pokémon Donjon Mystère Heardle](https://prateau.github.io/pmd-heardle/).
+Chaque musique est choisie au hasard dans la bande-son de Pokémon pour n'apparaître qu'une seule fois. Si chaque musique est utilisée une fois, le jeu se réinitialise automatiquement et chaque musique apparaît à nouveau dans un ordre différent. Le code pour la RNG seedée provient de [Pokémon Donjon Mystère Heardle](https://prateau.github.io/pmd-heardle/). Le code pour la bar de volume viens du [Video Games Infinite Heardle](https://keraloon.github.io/infinitevideogame/).
 <br />
 <br />
 COMMENT EXECUTER HEARDLE LOCALEMENT :
