@@ -23,7 +23,7 @@ var app = (function () {
   );
 
   // To store userStats in a different place if several heardles are hosted in the same domain
-  const url = window.location.href.trim("/").split("/")
+  const url = window.location.href.replace(/^\/+|\/+$/g, '').split("/")
   const userStatsPrefix = url[url.length - 1] + "-userStats"
 
   // seeded random algorithm
