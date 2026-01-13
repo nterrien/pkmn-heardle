@@ -1,4 +1,4 @@
-// Copy from pkmn-infinite-heardle. To convert remove tags from pkmn-INFINITE-heardle list : 
+// Copy from pkmn-infinite-heardle. To remove tags from pkmn-INFINITE-heardle list : 
 // musicNameList.map(m => { return { id: m.id, en: m.en, fr: m.fr } })
 var musicNameList = [
   {

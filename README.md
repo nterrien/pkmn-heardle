@@ -4,7 +4,7 @@
 
 A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://heardle-kpop.glitch.me/) but for Pokémon musics. Based on [Pokémon Heardle](https://pkmn-heardle.glitch.me/) by SgtAngel777 and NickWrightData and modified to add more musics and features. The original [Pokémon Heardle](https://pkmn-heardle.glitch.me/) is down now. If you are the original creators of Pokémon Heardle and want me to stop this website and rehost Pokémon Heardle by yourself you can contact me anywhere (see the About popup on the website).
 
-Each music is randomly chosen from Pokémon's soundtrack to appear only once. If every music is used once, the game automatically resets and every music appears once again in a different order. The code for daily seeded RNG come from [Pokémon Mystery Dungeon Heardle](https://pkmn-md-heardle.glitch.me/).
+Each music is randomly chosen from Pokémon's soundtrack to appear only once. If every music is used once, the game automatically resets and every music appears once again in a different order. The code for daily seeded RNG come from [Pokémon Mystery Dungeon Heardle](https://prateau.github.io/pmd-heardle/).
 <br />
 <br />
 HOW TO RUN HEARDLE LOCALLY:
@@ -44,7 +44,7 @@ HOW TO MAKE YOUR OWN HEARDLE (UDPATED on **25/07/12**)
 
 Un clone de [Heardle](https://www.heardle.app/), et de [K-Pop Heardle](https://heardle-kpop.glitch.me/) mais pour les musiques de Pokémon. Basé sur [Pokémon Heardle](https://pkmn-heardle.glitch.me/) par SgtAngel777 et NickWrightData et modifié pour ajouter plus de musiques et de fonctionnalités. Le [Pokémon Heardle](https://pkmn-heardle.glitch.me/) original n'existe plus. Si vous êtes les créateurs originaux de Pokémon Heardle et que vous voulez que j'arrête ce site web et que héberger Pokémon Heardle vous-même, vous pouvez me contacter n'importe où (voir le popup "À propos" sur le site).
 
-Chaque musique est choisie au hasard dans la bande-son de Pokémon pour n'apparaître qu'une seule fois. Si chaque musique est utilisée une fois, le jeu se réinitialise automatiquement et chaque musique apparaît à nouveau dans un ordre différent. Le code pour la RNG seedée provient de [Pokémon Donjon Mystère Heardle](https://pkmn-md-heardle.glitch.me/).
+Chaque musique est choisie au hasard dans la bande-son de Pokémon pour n'apparaître qu'une seule fois. Si chaque musique est utilisée une fois, le jeu se réinitialise automatiquement et chaque musique apparaît à nouveau dans un ordre différent. Le code pour la RNG seedée provient de [Pokémon Donjon Mystère Heardle](https://prateau.github.io/pmd-heardle/).
 <br />
 <br />
 COMMENT EXECUTER HEARDLE LOCALEMENT :
@@ -64,8 +64,9 @@ COMMENT FAIRE VOTRE PROPRE HEARDLE (MISE À JOUR LE **25/07/12**)
 8. À la ligne **1** du fichier **translation.js**, mettez à jour **languages** avec la liste des langues de votre Heardle.
 9. À la ligne **3** du **music-list.js**, "var **musicNameList**" est initialisée. Remplacez la par une liste de titres de musiques que vous souhaitez voir apparaître comme suggestions dans votre Heardle. La liste dois suivre le format: **`{ id : id de la musique, codeLanguage : "Titre de la musique" }`**. Chaque musique doit avoir un id différent, et il faut une entrée par langue. Pour chaque langue, le nom de la musique doit suivre le format **"Nom de la musique - Artiste/Genre/Jeu"**. Assurez-vous que chaque musique est entre guillemets et qu'elle est suivie d'une virgule.
 10. A la ligne **1** de **music-links.js**, "var **musicListWithLinks**" est initialisée. Ici, vous devrez remplacer les liens par des liens vers vos musiques. Seulement des liens Soundcloud. Chaque ligne devra suivre le format suivant : **`{ url : "<link>", answer : id de la musique },`**. Assurez-vous d'avoir au moins **10 musiques** dans votre liste sinon vous rencontrerez des problèmes avec la barre de recherche !
-11. Si vous voulez modifier le texte de l'interface, éditez les constantes dans **translation.js**. N'oubliez pas d'ajouter les nouveaux drapeaux de langue au dossier "flags" si nécessaire. En particulier, si vous voulez éditer le texte dans le **bouton info (À propos)** en haut à gauche, autour de la ligne **80**, vous pouvez mettre à jour le texte qui s'y affiche. Cherchez **"aboutPopupT"** pour trouver la ligne plus facilement. De même, si vous souhaitez modifier le texte du **bouton cœur (Support)** à côté du bouton info, autour de la ligne **54**, vous pouvez mettre à jour le texte qui s'affiche à cet endroit. Cherchez **"supportPopupT"** pour trouver la ligne plus facilement.
-12. Remplacez **https://nterrien.github.io/pkmn-heardle/** par le lien de votre Heardle dans **main.js**, **index.html** et **translation.js**.
+11. Si vous ne voulza pas que le lien de votre heardle soit affiché quand un utilisateur partage ses résulats, ajouter "**//**" autour de la **ligne 4933**.
+12. Si vous voulez modifier le texte de l'interface, éditez les constantes dans **translation.js**. N'oubliez pas d'ajouter les nouveaux drapeaux de langue au dossier "flags" si nécessaire. En particulier, si vous voulez éditer le texte dans le **bouton info (À propos)** en haut à gauche, autour de la ligne **80**, vous pouvez mettre à jour le texte qui s'y affiche. Cherchez **"aboutPopupT"** pour trouver la ligne plus facilement. De même, si vous souhaitez modifier le texte du **bouton cœur (Support)** à côté du bouton info, autour de la ligne **54**, vous pouvez mettre à jour le texte qui s'affiche à cet endroit. Cherchez **"supportPopupT"** pour trouver la ligne plus facilement.
+13. Remplacez **https://nterrien.github.io/pkmn-heardle/** par le lien de votre Heardle dans **main.js**, **index.html** et **translation.js**.
 
 **PROBLÈMES CONNUS**
 
