@@ -5634,7 +5634,7 @@ var musicNameList = [
   {
     id: 1126,
     en: "Sea Mauville (Abandoned Ship)/Mirage Caves/Mirage Forests/Mirage Islands/Mirage Mountains - Omega Ruby/Alpha Sapphire",
-    fr: "Sea Mauville (Épave)/Grottes Mirage/Forêts Mirage/Ȋles Mirage/Monts Mirage - Rubis Oméga/Saphir Alpha"
+    fr: "Lavandia Sea (Épave)/Grottes Mirage/Forêts Mirage/Ȋles Mirage/Monts Mirage - Rubis Oméga/Saphir Alpha"
   },
   {
     id: 1127,
