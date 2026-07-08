@@ -6787,10 +6787,6 @@ var musicListWithLinks = [
         url: "https://soundcloud.com/rse-548363113/giratina-emerges-pokemon-legends-arceus",
         answer: 1686,
     },
-    // {
-    //  url: "https://soundcloud.com/iratina/battle-vs-giratina-origin-form",
-    //  answer: -8,
-    // },
     {
         url: "https://soundcloud.com/zygarde_lagan/battle-volo-giratina-revival-pokemon-legends-arceus",
         answer: 1687,
@@ -7543,4 +7539,360 @@ var musicListWithLinks = [
         url: "https://soundcloud.com/sv-dlc2/6-33-title-screen-2-pokemon",
         answer: 1871,
     },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-disturbance-at-prism-tower-1",
+        answer: 1872
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-journey-to-lumiose-city-2",
+        answer: 1873
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-gare-de-lumiose-3",
+        answer: 1874
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-lumiose-city-vert-district-5",
+        answer: 1875
+    },
+    {
+        url: "https://soundcloud.com/beignet3/urban-development-plan",
+        answer: 1876
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-heated-discussion-8",
+        answer: 1877
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-challenged-to-a-battle-9",
+        answer: 1878
+    },
+    {
+        url: "https://soundcloud.com/skyloft-zelda/pokemon-legends-z-a-trainer",
+        answer: 1879
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-victory-trainer-2",
+        answer: 1880
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-battle-zone-5",
+        answer: 1881
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-floette-to-the-rescue-6",
+        answer: 1882
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-hotel-z-1",
+        answer: 1883
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-agreeing-to-help-az-3",
+        answer: 1884
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-team-mz-6",
+        answer: 1885
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-battle-team-mz",
+        answer: 1886
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-pokemon-center-2",
+        answer: 1887
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-wild-zone-4",
+        answer: 1888
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-wild-pokemon-battle-1",
+        answer: 1889
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-pokemon-research-lab-2",
+        answer: 1890
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-trainer-battle-2",
+        answer: 1891
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-detective-emma-5",
+        answer: 1892
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-delicious-croissant-curry-6",
+        answer: 1893
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-looker-bureau-4",
+        answer: 1894
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-alpha-pokemon-battle",
+        answer: 1895
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-evolution-12",
+        answer: 1896
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-photo-happy-7",
+        answer: 1897
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-photo-battle-8",
+        answer: 1898
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-photo-lullaby-9",
+        answer: 1899
+    },
+    {
+        url: "https://soundcloud.com/beignet3/lumiose-city-night",
+        answer: 1900
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-restaurant-14",
+        answer: 1901
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-a-strong-surge-of-mega-power-15",
+        answer: 1902
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-battle-rogue-mega-pokemon-16",
+        answer: 1903
+    },
+    {
+        url: "https://soundcloud.com/beignet3/quasartico-incs-mission",
+        answer: 1904
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-quasartico-inc-3",
+        answer: 1905
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-strategy-meeting-4",
+        answer: 1906
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-1",
+        answer: 1907
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-l-5",
+        answer: 1908
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-canari-quiz-whiz-contest-6",
+        answer: 1909
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-racine-construction-7",
+        answer: 1910
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-battle-canari",
+        answer: 1911
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-fist-of-justice-2",
+        answer: 1912
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-lumiose-sewers-9",
+        answer: 1913
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-battle-lumiose-sewers-10",
+        answer: 1914
+    },
+    {
+        url: "https://soundcloud.com/beignet3/battle-sewers-alpha-pokemon",
+        answer: 1915
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/9375c384-4c4f-45c0-8709-b69da48579d2",
+        answer: 1916
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-rust-syndicate-12",
+        answer: 1917
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-rust-syndicate-office-2",
+        answer: 1918
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-corbeau-3",
+        answer: 1919
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-battle-corbeau",
+        answer: 1920
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-jacinthe-5",
+        answer: 1921
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-battle-zygarde-50-forme-6",
+        answer: 1922
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-battle",
+        answer: 1923
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-team-flare-nouveau-7",
+        answer: 1924
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-lysandre-labs-9",
+        answer: 1925
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-battle-lysandre-labs-11",
+        answer: 1926
+    },
+    {
+        url: "https://soundcloud.com/beignet3/battle-lysandre-labs-alpha-pokemon",
+        answer: 1927
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-az-and-the-ultimate-weapon-12",
+        answer: 1928
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-battle-griselle-and-grisham",
+        answer: 1929
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-ange-awakens-2",
+        answer: 1930
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-battle-ivor",
+        answer: 1931
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow12567/pokemon-legends-z-a-ost-azs-faith-3",
+        answer: 1932
+    },
+    {
+        url: "https://soundcloud.com/beignet3/to-the-prism-tower-with-floette",
+        answer: 1933
+    },
+    {
+        url: "https://soundcloud.com/beignet3/control-room",
+        answer: 1934
+    },
+    {
+        url: "https://soundcloud.com/beignet3/rampage",
+        answer: 1935
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadowxd366/pokemon-legends-z-a-ost-prism-towers-dark-turn-1",
+        answer: 1936
+    },
+    {
+        url: "https://soundcloud.com/beignet3/battle-lumiose-city-in-crisis",
+        answer: 1937
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadowxd366/pokemon-legends-z-a-ost-zygarde-gains-its-complete-forme-3",
+        answer: 1938
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-battle-hyperrouge-ange-flotte-1",
+        answer: 1939
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadowxd366/pokemon-legends-z-a-ost-ange-uses-light-of-ruin-5",
+        answer: 1940
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadowxd366/pokemon-legends-z-a-ost-mega-zygarde-6",
+        answer: 1941
+    },
+    {
+        url: "https://soundcloud.com/beignet3/nihil-light",
+        answer: 1942
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadowxd366/pokemon-legends-z-a-ost-staff-roll-kiseki-9",
+        answer: 1943
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadowxd366/pokemon-legends-z-a-ost-fin-10",
+        answer: 1944
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadowxd366/pokemon-legends-z-a-ost-ranked-battle-12",
+        answer: 1945
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadowxd366/pokemon-legends-z-a-ost-1112-ranked-battle-results-13",
+        answer: 1946
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-battle-final-battle",
+        answer: 1947
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1256/pokemon-legends-z-a-ost-battle-xerneas-yveltal-5",
+        answer: 1948
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1255/pokemon-legends-z-a-ost-ansha-hoopa-theme-6",
+        answer: 1949
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1255/pokemon-legends-z-a-ost-hyperspace-lumiose-theme-5",
+        answer: 1950
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1255/pokemon-legends-z-a-ost-yperspace-wild-pokemon-battle-3",
+        answer: 1951
+    },
+    {
+        url: "https://soundcloud.com/beignet3/successor-korrina",
+        answer: 1952
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1255/pokemon-legends-z-a-ost-hyperspace-alpha-pokemon-battle-2",
+        answer: 1953
+    },
+    {
+        url: "https://soundcloud.com/beignet3/operation-mega-donut",
+        answer: 1954
+    },
+    {
+        url: "https://soundcloud.com/beignet3/remnant",
+        answer: 1955
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1255/bpokemon-legends-z-a-ost-battle-rouge-mega-darkrai-5",
+        answer: 1956
+    },
+    {
+        url: "https://soundcloud.com/stupidpros/final-credits-song-pokemon",
+        answer: 1957
+    },
+    {
+        url: "https://soundcloud.com/infiniteshadow1255/pokemon-legends-z-a-ost-rogue-mega-rayquaza-battle-7",
+        answer: 1958
+    },
+    {
+        url: "https://soundcloud.com/beignet3/the-best-gift",
+        answer: 1959
+    },
+    {
+        url: "https://soundcloud.com/beignet3/anshas-story",
+        answer: 1960
+    }
 ];

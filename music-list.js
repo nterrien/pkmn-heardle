@@ -9360,5 +9360,450 @@ var musicNameList = [
     id: 1871,
     en: "Title Screen 2 - Scarlet/Violet (The Indigo Disk)",
     fr: "Écran titre 2 - Écarlate/Violet (Le Disque Indigo)"
+  },
+  {
+    id: 1872,
+    en: "Under the Prism Tower - Legends: Z-A",
+    fr: "Sous la Tour Prismatique - Légendes: Z-A"
+  },
+  {
+    id: 1873,
+    en: "From the Train Window - Legends: Z-A",
+    fr: "Dans le train - Légendes: Z-A"
+  },
+  {
+    id: 1874,
+    en: "Arrival at the Station - Legends: Z-A",
+    fr: "Arrivée à la Gare - Légendes: Z-A"
+  },
+  {
+    id: 1875,
+    en: "Lumiose City (Day) - Legends: Z-A",
+    fr: "Illumis (Jour) - Légendes: Z-A"
+  },
+  {
+    id: 1876,
+    en: "Urban Development Plan - Legends: Z-A",
+    fr: "Plan de réaménagement urbain - Légendes: Z-A"
+  },
+  {
+    id: 1877,
+    en: "Trouble Occurs?! - Legends: Z-A",
+    fr: "Des problèmes ?! - Légendes: Z-A"
+  },
+  {
+    id: 1878,
+    en: "The Z-A Royale Begins! (Promotion Match) - Legends: Z-A",
+    fr: "Le Royale Z-A Commence ! (Matchs qualificatifs) - Légendes: Z-A"
+  },
+  {
+    id: 1879,
+    en: "Battle! (Trainer) - Legends: Z-A",
+    fr: "Combat! (Dresseurs et Dresseuses) - Légendes: Z-A"
+  },
+  {
+    id: 1880,
+    en: "Victory! (Trainer) - Legends: Z-A",
+    fr: "Victoire! (Dresseurs et Dresseuses) - Légendes: Z-A"
+  },
+  {
+    id: 1881,
+    en: "Battle Zone - Legends: Z-A",
+    fr: "Zone de combat - Légendes: Z-A"
+  },
+  {
+    id: 1882,
+    en: "Challenge - Legends: Z-A",
+    fr: "Défi - Légendes: Z-A"
+  },
+  {
+    id: 1883,
+    en: "Hotel Z - Legends: Z-A",
+    fr: "Hôtel Z - Légendes: Z-A"
+  },
+  {
+    id: 1884,
+    en: "Leader of Team MZ (Taunie/Urbain Theme) - Legends: Z-A",
+    fr: "Chef·fe de la Team MZ (Thème de Cety/Boro) - Légendes: Z-A"
+  },
+  {
+    id: 1885,
+    en: "Members of Team MZ - Legends: Z-A",
+    fr: "Membres de la Team MZ - Légendes: Z-A"
+  },
+  {
+    id: 1886,
+    en: "Battle! (Team MZ) - Legends: Z-A",
+    fr: "Combat! (Team MZ) - Légendes: Z-A"
+  },
+  {
+    id: 1887,
+    en: "Pokémon Center - Legends: Z-A",
+    fr: "Centre Pokémon - Légendes: Z-A"
+  },
+  {
+    id: 1888,
+    en: "Wild Zone - Legends: Z-A",
+    fr: "Zone sauvage - Légendes: Z-A"
+  },
+  {
+    id: 1889,
+    en: "Battle! (Wild Pokémon ~ Wild Zone) - Legends: Z-A",
+    fr: "Combat! (Pokémon sauvages ~ Zone sauvage) - Légendes: Z-A"
+  },
+  {
+    id: 1890,
+    en: "Pokémon Research Lab - Legends: Z-A",
+    fr: "Laboratoire Pokémon - Légendes: Z-A"
+  },
+  {
+    id: 1891,
+    en: "Battle! (Strong Trainer) - Legends: Z-A",
+    fr: "Combat! (Adversaire redoutable) - Légendes: Z-A"
+  },
+  {
+    id: 1892,
+    en: "Emma - Legends: Z-A",
+    fr: "Millie - Légendes: Z-A"
+  },
+  {
+    id: 1893,
+    en: "Eating Together (Croissant Curry) - Legends: Z-A",
+    fr: "Manger ensemble (Croissant au Curry) - Légendes: Z-A"
+  },
+  {
+    id: 1894,
+    en: "Looker Bureau - Legends: Z-A",
+    fr: "Agence Beladonis - Légendes: Z-A"
+  },
+  {
+    id: 1895,
+    en: "Battle! (Alpha Pokémon ~ Wild Zone) - Legends: Z-A",
+    fr: "Combat! (Pokémon Baron ~ Zone sauvage) - Légendes: Z-A"
+  },
+  {
+    id: 1896,
+    en: "Evolution - Legends: Z-A",
+    fr: "Évolution - Légendes: Z-A"
+  },
+  {
+    id: 1897,
+    en: "Photo (Friends Theme \"A New Meeting\") - Legends: Z-A",
+    fr: "Photo (Musique des amis: Rencontre!) - Légendes: Z-A"
+  },
+  {
+    id: 1898,
+    en: "Photo (Battle! (Friend)) - Legends: Z-A",
+    fr: "Photo (Combat! (Amis)) - Légendes: Z-A"
+  },
+  {
+    id: 1899,
+    en: "Photo (Friends Theme \"Friends Forever\") - Legends: Z-A",
+    fr: "Photo (Musique des amis: Pour toujours) - Légendes: Z-A"
+  },
+  {
+    id: 1900,
+    en: "Lumiose City (Night) - Legends: Z-A",
+    fr: "Illumis (Nuit) - Légendes: Z-A"
+  },
+  {
+    id: 1901,
+    en: "Restaurant - Legends: Z-A",
+    fr: "Restaurant - Légendes: Z-A"
+  },
+  {
+    id: 1902,
+    en: "Warning (Rogue Mega Evolution Encounter) - Legends: Z-A",
+    fr: "Attention (Rencontre avec un Pokémon Méga-Ferox) - Légendes: Z-A"
+  },
+  {
+    id: 1903,
+    en: "Battle! (Rogue Mega Pokémon) - Legends: Z-A",
+    fr: "Combat! (Méga-Évolution Ferox) - Légendes: Z-A"
+  },
+  {
+    id: 1904,
+    en: "Quasartico Inc's Mission - Legends: Z-A",
+    fr: "La Mission de la Société Quazar - Légendes: Z-A"
+  },
+  {
+    id: 1905,
+    en: "Quasartico Inc. - Legends: Z-A",
+    fr: "Société Quazar - Légendes: Z-A"
+  },
+  {
+    id: 1906,
+    en: "Strategy Meeting Time - Legends: Z-A",
+    fr: "Réunion Stratégique - Légendes: Z-A"
+  },
+  {
+    id: 1907,
+    en: "Battle! (Zygarde 10% Forme) - Legends: Z-A",
+    fr: "Combat! (Zygarde 10 %) - Légendes: Z-A"
+  },
+  {
+    id: 1908,
+    en: "L - Legends: Z-A",
+    fr: "L - Légendes: Z-A"
+  },
+  {
+    id: 1909,
+    en: "Let's Go, DYN4M0/Canari Theme - Legends: Z-A",
+    fr: "DI-GI-Z4P !!!/Thème de Narica - Légendes: Z-A"
+  },
+  {
+    id: 1910,
+    en: "Racine Construction - Legends: Z-A",
+    fr: "Bâti-Racines - Légendes: Z-A"
+  },
+  {
+    id: 1911,
+    en: "Battle! (Canari) - Legends: Z-A",
+    fr: "Combat! (Narica) - Légendes: Z-A"
+  },
+  {
+    id: 1912,
+    en: "Ivor of the Fist of Justice - Legends: Z-A",
+    fr: "Nivis des Poings de la Justice - Légendes: Z-A"
+  },
+  {
+    id: 1913,
+    en: "The Sewers - Legends: Z-A",
+    fr: "Les Égouts - Légendes: Z-A"
+  },
+  {
+    id: 1914,
+    en: "Battle! (Sewers Wild Pokémon) - Legends: Z-A",
+    fr: "Combat! (Pokémon sauvages ~ Égouts) - Légendes: Z-A"
+  },
+  {
+    id: 1915,
+    en: "Battle! (Sewers Alpha Pokémon) - Legends: Z-A",
+    fr: "Combat! (Pokémon Baron ~ Égouts) - Légendes: Z-A"
+  },
+  {
+    id: 1916,
+    en: "Battle! (Ivor) - Legends: Z-A",
+    fr: "Combat! (Nivis) - Légendes: Z-A"
+  },
+  {
+    id: 1917,
+    en: "Tension/Rust Syndicate - Legends: Z-A",
+    fr: "Tension/Clan Dérouillard - Légendes: Z-A"
+  },
+  {
+    id: 1918,
+    en: "Rust Syndicate Office - Legends: Z-A",
+    fr: "Agence Dérouillard - Légendes: Z-A"
+  },
+  {
+    id: 1919,
+    en: "Corbeau of the Rust Syndicate - Legends: Z-A",
+    fr: "Corvault du Clan Dérouillard - Légendes: Z-A"
+  },
+  {
+    id: 1920,
+    en: "Battle! (Corbeau) - Legends: Z-A",
+    fr: "Combat! (Corvault) - Légendes: Z-A"
+  },
+  {
+    id: 1921,
+    en: "Jacinthe of the SBC - Legends: Z-A",
+    fr: "Violine de la FRIM - Légendes: Z-A"
+  },
+  {
+    id: 1922,
+    en: "Battle! (Zygarde 50% Forme) - Legends: Z-A",
+    fr: "Combat! (Zygarde 50 %) - Légendes: Z-A"
+  },
+  {
+    id: 1923,
+    en: "Battle! (Jacinthe) - Legends: Z-A",
+    fr: "Combat! (Violine) - Légendes: Z-A"
+  },
+  {
+    id: 1924,
+    en: "Team Flare Nouveau - Legends: Z-A",
+    fr: "Néo Team Flare - Légendes: Z-A"
+  },
+  {
+    id: 1925,
+    en: "Lysandre Labs - Legends: Z-A",
+    fr: "Les Labos Lysandre - Légendes: Z-A"
+  },
+  {
+    id: 1926,
+    en: "Battle! (Lysandre Labs Wild Pokémon) - Legends: Z-A",
+    fr: "Combat! (Pokémon sauvages ~ Labos Lysandre) - Légendes: Z-A"
+  },
+  {
+    id: 1927,
+    en: "Battle! (Lysandre Labs Alpha Pokémon) - Legends: Z-A",
+    fr: "Combat! (Pokémon Baron ~ Labos Lysandre) - Légendes: Z-A"
+  },
+  {
+    id: 1928,
+    en: "Memories of a Prison/Ange's Story - Legends: Z-A",
+    fr: "Histoire de l'Ange - Légendes: Z-A"
+  },
+  {
+    id: 1929,
+    en: "Battle! (Team Flare Nouveau) - Legends: Z-A",
+    fr: "Combat! (Néo Team Flare) - Légendes: Z-A"
+  },
+  {
+    id: 1930,
+    en: "Anomaly at Prism Tower - Legends: Z-A",
+    fr: "Anomalie à la Tour Prismatique - Légendes: Z-A"
+  },
+  {
+    id: 1931,
+    en: "Serious Showdown Battle! (Team MZ) - Legends: Z-A",
+    fr: "Combat sérieux! (Team MZ) - Légendes: Z-A"
+  },
+  {
+    id: 1932,
+    en: "AZ's Thoughts - Legends: Z-A",
+    fr: "Les Encouragements d'A.Z. - Légendes: Z-A"
+  },
+  {
+    id: 1933,
+    en: "To the Prism Tower with Floette - Legends: Z-A",
+    fr: "Floette Méga-Évolue - Légendes: Z-A"
+  },
+  {
+    id: 1934,
+    en: "Control Room - Legends: Z-A",
+    fr: "Salle de contrôle - Légendes: Z-A"
+  },
+  {
+    id: 1935,
+    en: "Rampage - Legends: Z-A",
+    fr: "Fureur - Légendes: Z-A"
+  },
+  {
+    id: 1936,
+    en: "Lumiose City in Crisis - Legends: Z-A",
+    fr: "Illumis en péril - Légendes: Z-A"
+  },
+  {
+    id: 1937,
+    en: "Battle! (Lumiose City in Crisis) - Legends: Z-A",
+    fr: "Combat! (Illumis en péril) - Légendes: Z-A"
+  },
+  {
+    id: 1938,
+    en: "Zygarde Complete Forme - Legends: Z-A",
+    fr: "Zygarde 100 % - Légendes: Z-A"
+  },
+  {
+    id: 1939,
+    en: "Decisive Battle! (Hyper Rogue Ange Floette) - Legends: Z-A",
+    fr: "Combat décisif! (Ange Floette Ferox Suprême) - Légendes: Z-A"
+  },
+  {
+    id: 1940,
+    en: "Another Rampage - Legends: Z-A",
+    fr: "Une autre Fureur - Légendes: Z-A"
+  },
+  {
+    id: 1941,
+    en: "Mega Zygarde - Legends: Z-A",
+    fr: "Méga-Zygarde - Légendes: Z-A"
+  },
+  {
+    id: 1942,
+    en: "Nihil Light - Legends: Z-A",
+    fr: "Lux Nihilum - Légendes: Z-A"
+  },
+  {
+    id: 1943,
+    en: "KISEKI - Reprise/Ending Theme - Legends: Z-A",
+    fr: "KISEKI - Reprise/Générique de fin - Légendes: Z-A"
+  },
+  {
+    id: 1944,
+    en: "Goodnight/AZ's Grave - Legends: Z-A",
+    fr: "Au revoir/La tombe d'A.Z. - Légendes: Z-A"
+  },
+  {
+    id: 1945,
+    en: "Ranked Battle! - Legends: Z-A",
+    fr: "Combats classés! - Légendes: Z-A"
+  },
+  {
+    id: 1946,
+    en: "Battle Results - Legends: Z-A",
+    fr: "Résultat combats classés - Légendes: Z-A"
+  },
+  {
+    id: 1947,
+    en: "Battle! (Lysandre) - Legends: Z-A",
+    fr: "Combat! (Lysandre) - Légendes: Z-A"
+  },
+  {
+    id: 1948,
+    en: "Battle! (Zygarde Complete Forme) - Legends: Z-A",
+    fr: "Combat! (Zygarde 100 %) - Légendes: Z-A"
+  },
+  {
+    id: 1949,
+    en: "Ansha - Legends: Z-A (Mega Dimension)",
+    fr: "Anya - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1950,
+    en: "Hyperspace Lumiose - Legends: Z-A (Mega Dimension)",
+    fr: "Extra Illumis - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1951,
+    en: "Battle! (Hyperspace Lumiose Wild Pokémon) - Legends: Z-A (Mega Dimension)",
+    fr: "Combat! (Pokémon d’Extra Illumis) - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1952,
+    en: "Successor Korrina - Legends: Z-A (Mega Dimension)",
+    fr: "Cornélia l’Héritière - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1953,
+    en: "Battle! (Hyperspace Lumiose Alpha Pokémon) - Legends: Z-A (Mega Dimension)",
+    fr: "Combat! (Pokémon Baron d’Extra Illumis) - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1954,
+    en: "Operation Mega Donut - Legends: Z-A (Mega Dimension)",
+    fr: "Opération Méga-Donut - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1955,
+    en: "Remnant (Dream AZ) - Legends: Z-A (Mega Dimension)",
+    fr: "Rêve d'A.Z. - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1956,
+    en: "Battle! (Rogue Mega Darkrai) - Legends: Z-A (Mega Dimension)",
+    fr: "Combat! (Méga-Darkrai) - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1957,
+    en: "I'll Go With You - Reprise/Ending Theme - Legends: Z-A (Mega Dimension)",
+    fr: "Nous irons ensemble - Reprise/Générique de fin - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1958,
+    en: "Battle! (Rogue Mega Rayquaza) - Legends: Z-A (Mega Dimension)",
+    fr: "Combat! (Méga-Rayquaza) - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1959,
+    en: "The Best Gift - Legends: Z-A (Mega Dimension)",
+    fr: "Le plus beau des cadeaux - Légendes: Z-A (Méga-Dimension)"
+  },
+  {
+    id: 1960,
+    en: "Ansha's Story - Legends: Z-A (Mega Dimension)",
+    fr: "L'histoire d'Anya - Légendes: Z-A (Méga-Dimension)"
   }
 ];
